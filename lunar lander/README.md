@@ -18,12 +18,12 @@ A Deep Reinforcement Learning project focused on training an autonomous spacecra
 ---
 
 ## Project Objective
-The goal of this implementation is to leverage the Actor-Critic framework via PPO to master the continuous flight control dynamics of the LunarLander environment[cite: 1]. Instead of utilizing hand-crafted rule-based physics equations, the agent organically derives an optimal thrust policy through active exploration and cumulative reward maximization[cite: 1].
+The goal of this implementation is to leverage the Actor-Critic framework via PPO to master the continuous flight control dynamics of the LunarLander environment. Instead of utilizing hand-crafted rule-based physics equations, the agent organically derives an optimal thrust policy through active exploration and cumulative reward maximization.
 
 ### Environment Specifications
-* **Environment Name:** `LunarLander-v3`[cite: 1]
-* **Observation Space:** 8-Dimensional continuous vector tracking positions ($x, y$), velocities ($v_x, v_y$), tilt angle, angular velocity, and left/right leg ground contact assertions[cite: 1].
-* **Action Space:** Discrete (4) representing: Do nothing, fire left orientation engine, fire main engine, or fire right orientation engine[cite: 1].
+* **Environment Name:** `LunarLander-v3`
+* **Observation Space:** 8-Dimensional continuous vector tracking positions ($x, y$), velocities ($v_x, v_y$), tilt angle, angular velocity, and left/right leg ground contact assertions.
+* **Action Space:** Discrete (4) representing: Do nothing, fire left orientation engine, fire main engine, or fire right orientation engine.
 
 ---
 
