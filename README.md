@@ -28,7 +28,7 @@ A collection of **9 projects** spanning Machine Learning, Deep Learning, Compute
 | 6 | [Movie Recommendation System](./Movie-Recommendation-System/) | ML — NLP / Recommender | TF-IDF, Cosine Similarity, Flask | — |
 | 7 | [RAG Chatbot (Amazon 10-Q)](./Rag_Chatbot/) | NLP — RAG | FastAPI, FAISS, Gemini AI, Sentence-Transformers | — |
 | 8 | [CartPole (PPO)](./cartpole/) | RL — Control | Stable-Baselines3, PPO, Gymnasium | — |
-| 9 | [Lunar Lander (DQN)](./lunar%20lander/) | RL — Control | Stable-Baselines3, DQN, Box2D | — |
+| 9 | [Lunar Lander (PPO)](./lunar%20lander/) | RL — Control | Stable-Baselines3, PPO, Box2D | — |
 
 ---
 
@@ -109,9 +109,9 @@ Trains an agent to balance a pole on a cart using **Proximal Policy Optimization
 
 ---
 
-### 9. 🚀 [Lunar Lander — DQN Reinforcement Learning](./lunar%20lander/)
+### 9. 🚀 [Lunar Lander — PPO Reinforcement Learning](./lunar%20lander/)
 
-Trains an autonomous spacecraft agent to safely land on a designated pad using **Deep Q-Network (DQN)** with the Box2D physics simulator.
+Trains an autonomous spacecraft agent to safely land on a designated pad using **Proximal Policy Optimization (PPO)** with the Box2D physics simulator.
 
 **Framework:** Stable-Baselines3, Gymnasium (LunarLander-v3)  
 **Components:** `train.py`, `evaluate.py`, `test.py`, `record_video.py`, `plot_training.py`
@@ -145,7 +145,7 @@ Trains an autonomous spacecraft agent to safely land on a designated pad using *
 ├── Movie-Recommendation-System/          # TF-IDF + Flask recommender
 ├── Rag Chatbot/                          # RAG chatbot with FAISS + Gemini
 ├── cartpole/                             # PPO reinforcement learning
-├── lunar lander/                         # DQN reinforcement learning
+├── lunar lander/                         # PPO reinforcement learning
 └── README.md                             # This file
 ```
 
